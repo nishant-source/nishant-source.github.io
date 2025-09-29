@@ -1,0 +1,57 @@
+1. What is Git and why use it?
+Answer:
+Git is a version control system. It helps track changes in code, work with different versions, and collaborate with other developers. I use it because it makes teamwork easier and keeps a history of my project.
+
+
+2. How do you push code to GitHub?
+Answer:
+I first add files using git add ., then commit with git commit -m "message", and finally push with git push origin main.
+It means I’m uploading my local work to my GitHub repo.
+
+
+3. What is GitHub Pages?
+Answer:
+GitHub Pages is a free hosting service provided by GitHub. It lets me host static websites directly from a GitHub repository. Example: username.github.io.
+
+
+4. Difference between static and dynamic websites?
+Answer:
+Static website → Only HTML, CSS, JS, same content for everyone. Example: Portfolio site.
+
+Dynamic website → Content changes based on user or server data. Example: Facebook or e-commerce site.
+
+
+5. How do you revert commits in Git?
+Answer:
+There are two main ways:
+
+git revert <commit-id> → makes a new commit that undoes changes (safe way).
+
+git reset → moves the branch back to an older commit (more risky).
+In real projects, git revert is safer.
+
+
+6. What is branching in Git?
+Answer:
+Branching means creating a separate line of development. It allows me to work on a new feature without disturbing the main code. Later, I can merge it back.
+
+
+7. Explain pull requests.
+Answer:
+A pull request is when I finish work on a branch and ask the team to review and merge it into the main branch. It’s commonly used in collaborative projects.
+
+
+8. How to resolve merge conflicts?
+Answer:
+Conflicts happen when two people change the same part of a file. To fix it, I open the file, choose the correct version (or combine both), then mark it as resolved, commit, and push again.
+
+
+9. How to host a website for free?
+Answer:
+I can host a static website for free using GitHub Pages, Netlify, or Vercel. For this task, I used GitHub Pages.
+
+
+10. What is continuous deployment?
+Answer:
+Continuous deployment means whenever I push new code to the main branch, it automatically goes live without manual steps. It helps deliver updates quickly and reduces manual work.
+
